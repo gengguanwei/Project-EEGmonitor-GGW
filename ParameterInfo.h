@@ -45,7 +45,7 @@ class PE : public SingleParameterBase
 {
     Q_OBJECT
 public:
-    PE();
+    explicit PE(QObject *parent = nullptr);
     ~PE();
 
 signals:

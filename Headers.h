@@ -11,5 +11,9 @@
 #include <QThread>
 #include <QDateTime>
 #include <QtMath>
+#include <QMutex>
+#include <QWaitCondition>
+#include <QQueue>
+#include <QFile>
 
 #endif // HEADERS_H

@@ -21,7 +21,8 @@ SOURCES += \
     third_party/FFTpsd/fft_param.cpp \
     third_party/FFTpsd/general_tools.cpp \
     third_party/FFTpsd/string_to_type.cpp \
-    third_party/QCustomPlot/qcustomplot.cpp
+    third_party/QCustomPlot/qcustomplot.cpp \
+    utils/BlockQueue.cpp
 
 HEADERS += \
     DataInfo.h \
@@ -37,7 +38,8 @@ HEADERS += \
     third_party/FFTpsd/general_tools.h \
     third_party/FFTpsd/getpot.h \
     third_party/FFTpsd/string_to_type.h \
-    third_party/QCustomPlot/qcustomplot.h
+    third_party/QCustomPlot/qcustomplot.h \
+    utils/BlockQueue.h
 
 FORMS += \
     WidgetMain.ui

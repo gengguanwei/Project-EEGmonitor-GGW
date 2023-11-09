@@ -28,8 +28,8 @@ TaskCalcParameter::~TaskCalcParameter()
 
 void TaskCalcParameter::TaskCalcParameterInit()
 {
-    listOfParameters.append(QSharedPointer<SingleParameterBase>(new PE()));
-    listOfParameters.append(QSharedPointer<SingleParameterBase>(new PE()));
+//    listOfParameters.append(QSharedPointer<SingleParameterBase>(new PE()));
+//    listOfParameters.append(QSharedPointer<SingleParameterBase>(new PE()));
     pointerToEEGChannel1 = QSharedPointer<QVector<double>>(new QVector<double>());
     pointerToEEGChannel2 = QSharedPointer<QVector<double>>(new QVector<double>());
     pointerToEEGChannel1->reserve(ParameterInfo::minNumOfRequiredDataPoints);
