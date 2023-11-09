@@ -11,6 +11,7 @@ CONFIG += c++17
 
 SOURCES += \
     DataInfo.cpp \
+    LogInfo.cpp \
     ParameterInfo.cpp \
     SerialPortInfo.cpp \
     main.cpp \
@@ -27,6 +28,7 @@ SOURCES += \
 HEADERS += \
     DataInfo.h \
     Headers.h \
+    LogInfo.h \
     ParameterInfo.h \
     SerialPortInfo.h \
     WidgetMain.h \
